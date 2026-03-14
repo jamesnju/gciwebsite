@@ -11,7 +11,6 @@ const _geistMono = Geist_Mono({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: 'Grace Church - Evangelism | Discipleship | Leadership',
   description: 'Welcome to Grace Church - A place of faith, community, and spiritual growth',
-  generator: 'v0.app',
   icons: {
     icon: [
       {

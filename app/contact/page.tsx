@@ -63,17 +63,17 @@ export default function ContactPage() {
                   {
                     icon: <Phone className="w-6 h-6" />,
                     title: 'Phone',
-                    content: '(555) 123-4567',
+                    content: '(+254) 722 707-193',
                   },
                   {
                     icon: <Mail className="w-6 h-6" />,
                     title: 'Email',
-                    content: 'info@gracechurch.com',
+                    content: 'utawala@gospelcentresinternational.org',
                   },
                   {
                     icon: <MapPin className="w-6 h-6" />,
                     title: 'Address',
-                    content: '123 Main Street, New York, NY 10001',
+                    content: 'Utawala, Nairobi Kenya',
                   },
                 ].map((item, index) => (
                   <div key={index} className="flex items-start gap-4">
