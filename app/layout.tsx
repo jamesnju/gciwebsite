@@ -21,10 +21,6 @@ export const metadata: Metadata = {
         url: '/favicon/favicon-16x16.png',
         media: '(prefers-color-scheme: dark)',
       },
-      // {
-      //   url: '/icon.svg',
-      //   type: 'image/svg+xml',
-      // },
     ],
     apple: '/favicon/favicon-16x16.png',
   },
