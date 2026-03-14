@@ -1,0 +1,88 @@
+import { NextResponse } from 'next/server';
+
+export async function GET() {
+  const assemblies = [
+    {
+      id: 1,
+      name: 'Downtown Grace Center',
+      location: 'New York, NY',
+      address: '123 Main Street, New York, NY 10001',
+      service_time: 'Sunday 9:00 AM & 11:00 AM',
+      phone: '(555) 123-4567',
+      email: 'downtown@gracechurch.com',
+      image: '🏛️',
+    },
+    {
+      id: 2,
+      name: 'Westside Community Church',
+      location: 'Los Angeles, CA',
+      address: '456 West Ave, Los Angeles, CA 90001',
+      service_time: 'Sunday 10:00 AM & 6:00 PM',
+      phone: '(555) 234-5678',
+      email: 'westside@gracechurch.com',
+      image: '⛪',
+    },
+    {
+      id: 3,
+      name: 'Northgate Fellowship',
+      location: 'Chicago, IL',
+      address: '789 North Park, Chicago, IL 60601',
+      service_time: 'Sunday 8:30 AM & 10:30 AM',
+      phone: '(555) 345-6789',
+      email: 'northgate@gracechurch.com',
+      image: '✝️',
+    },
+    {
+      id: 4,
+      name: 'Riverside Ministry',
+      location: 'Miami, FL',
+      address: '321 River Road, Miami, FL 33101',
+      service_time: 'Sunday 9:30 AM & 11:30 AM',
+      phone: '(555) 456-7890',
+      email: 'riverside@gracechurch.com',
+      image: '🙏',
+    },
+    {
+      id: 5,
+      name: 'Mountain View Chapel',
+      location: 'Denver, CO',
+      address: '654 Mountain Way, Denver, CO 80201',
+      service_time: 'Sunday 10:00 AM & 6:00 PM',
+      phone: '(555) 567-8901',
+      email: 'mountainview@gracechurch.com',
+      image: '⛩️',
+    },
+    {
+      id: 6,
+      name: 'Harmony Valley Church',
+      location: 'Austin, TX',
+      address: '987 Valley Blvd, Austin, TX 78701',
+      service_time: 'Sunday 9:00 AM & 11:00 AM',
+      phone: '(555) 678-9012',
+      email: 'harmony@gracechurch.com',
+      image: '🕌',
+    },
+    {
+      id: 7,
+      name: 'Pacific Coast Assembly',
+      location: 'San Francisco, CA',
+      address: '147 Coast Drive, San Francisco, CA 94102',
+      service_time: 'Sunday 10:30 AM & 5:00 PM',
+      phone: '(555) 789-0123',
+      email: 'pacific@gracechurch.com',
+      image: '🏖️',
+    },
+    {
+      id: 8,
+      name: 'Liberty Hill Congregation',
+      location: 'Boston, MA',
+      address: '258 Liberty Lane, Boston, MA 02101',
+      service_time: 'Sunday 9:00 AM & 6:00 PM',
+      phone: '(555) 890-1234',
+      email: 'liberty@gracechurch.com',
+      image: '🗽',
+    },
+  ];
+
+  return NextResponse.json(assemblies);
+}
