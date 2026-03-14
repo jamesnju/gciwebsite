@@ -9,24 +9,24 @@ const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'Grace Church - Evangelism | Discipleship | Leadership',
-  description: 'Welcome to Grace Church - A place of faith, community, and spiritual growth',
+  title: 'Gospel Centres International - Evangelism | Discipleship | Leadership',
+  description: 'Welcome to Gospel Centres International - A place of faith, community, and spiritual growth',
   icons: {
     icon: [
       {
-        url: '/icon-light-32x32.png',
+        url: '/favicon/favicon-16x16.png',
         media: '(prefers-color-scheme: light)',
       },
       {
-        url: '/icon-dark-32x32.png',
+        url: '/favicon/favicon-16x16.png',
         media: '(prefers-color-scheme: dark)',
       },
-      {
-        url: '/icon.svg',
-        type: 'image/svg+xml',
-      },
+      // {
+      //   url: '/icon.svg',
+      //   type: 'image/svg+xml',
+      // },
     ],
-    apple: '/apple-icon.png',
+    apple: '/favicon/favicon-16x16.png',
   },
 }
 
