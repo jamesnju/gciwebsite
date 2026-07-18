@@ -491,7 +491,7 @@ export default function AboutPage() {
                   </div>
 
                   {/* Action */}
-                  <div className="px-6 pb-6">
+                  {/* <div className="px-6 pb-6">
                     <button
                       className="w-full py-3 rounded-xl font-semibold transition-all duration-300 hover:shadow-lg hover:scale-105 relative overflow-hidden group/btn"
                       style={{ backgroundColor: "#845c33", color: "white" }}
@@ -501,7 +501,7 @@ export default function AboutPage() {
                       </span>
                       <div className="absolute inset-0 bg-white opacity-0 group-hover/btn:opacity-20 transition-opacity duration-300"></div>
                     </button>
-                  </div>
+                  </div> */}
                 </div>
               ))}
             </div>
